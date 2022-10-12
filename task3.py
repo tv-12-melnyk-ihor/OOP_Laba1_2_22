@@ -1,13 +1,13 @@
 class Product:
 
-    def productInfo(self, pr, desc, dim):
+    def __init__(self, pr, desc, dim):
         self.price = pr
         self.description = desc
         self.dimensions = dim
 
 class Customer:
 
-    def customerInfo(self, sur, n, pat):
+    def __init__(self, sur, n, pat):
         self.surname = sur
         self.name = n
         self.patronymic = pat
@@ -26,10 +26,8 @@ class Order():
         return self.thisproduct.price * self.thisproduct.dimensions
 
 if __name__ == '__main__':
-    newproduct = Product()
-    newproduct.productInfo(10, "book", 25)
-    newcust = Customer()
-    newcust.customerInfo("Vladimirov", "Volodymyr", "Mykolaiovych")
+    newproduct = Product(10, "book", 25)
+    newcust = Customer("Vladimirov", "Volodymyr", "Mykolaiovych")
     neworder = Order(newproduct, newcust)
     neworder.display()
     print("Total price is", neworder.total(), "$")
