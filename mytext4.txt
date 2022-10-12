@@ -1,0 +1,3 @@
+Hi, my name is Ihor and this is my text. I am using this text in my program.
+This is a new line.
+The end.
