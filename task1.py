@@ -44,11 +44,4 @@ if __name__ == '__main__':
     defg = Rectangle(leng, wid)
     print("The perimeter of your rectangle is", defg.calc_perim())
     print("The area of your rectangle is", defg.calc_area())
-if __name__ == '__main__':
-    leng = float(input("Enter the length: "))
-    wid = float(input("Enter the width: "))
-    abcd = Rectangle()
-    abcd.mylength = leng
-    abcd.mywidth = wid
-    print("The perimeter of your rectangle is", abcd.calc_perim())
-    print("The area of your rectangle is", abcd.calc_area())
+
