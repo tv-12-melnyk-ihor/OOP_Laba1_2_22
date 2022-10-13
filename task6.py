@@ -74,7 +74,7 @@ mytree.createnode(97, 12)
 mytree.createnode(34, 3)
 mytree.createnode(56, 50)
 mytree.createnode(132, 1)
-mytree.createnode(34, 22) #Той самий випадок коли буде задано вже існуючий код - ціна зміниться з 3$ о 22$
+mytree.createnode(34, 22) #Той самий випадок коли буде задано вже існуючий код - ціна зміниться з 3$ до 22$
 mytree.createnode(133, 18)
 mytree.createnode(14, 32)
 mytree.createnode(101, 11)
